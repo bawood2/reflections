@@ -1,0 +1,25 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized, git creates a hidden directory which it will use to store commits.  
+This needs to be done in order to implement version control with git.  A repository needs to be created
+before any commits can be made.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+A staging area is an important part of version control because is acts as a midpoint between whats actively being worked on, and what is ready to be integrated.  The value it offers is that it allows for specific files to be committed at a time as opposed to everything which has been worked on since the last commit.  This allows for project progression that is faciliatated by the user. 
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
