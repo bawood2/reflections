@@ -13,6 +13,16 @@ A staging area is an important part of version control because is acts as a midp
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+The staging area is a good place to put files before I'm ready to commit a logical change.  I can make sure that the size of my commit is right
+by using the diff command with different options.  
+
+To see what I've changed with whats staged and what was previously committed, I can use "git diff --staged".  This will allow me to check
+to make sure what is staged is what is the complete logical change that I want to commit. 
+
+If I feel like I've missed something, I can run the command "git diff", which will compare my working directory with my staging area.  This will help
+me inspect what else I feel like is worth committing.
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
