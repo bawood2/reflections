@@ -26,12 +26,23 @@ me inspect what else I feel like is worth committing.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Log files would only appear under a specific branch.  So when it comes time to branch, all commits from the branch will be saved here.  The master
+branch won't be cluttered by other commits.  The history of development of the master will only contain what is important in its development.  If there
+branches which don't pan out, the master history will be free from all the those commits. 
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams will help visualize the branch structure by showing where each commit is relative to its parent.  By connecting each commit, the branch structure
+will begin to take form.  One possible use for these diagrams could be to see which direction a project is going, where the most time is being spent, and where to direct resources to.  Overall, it gives a broad overview of a projects progress and is a useful diagram to reference for a project's team leader.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging two branches together is that it creates a unified version of two different branches.  Merging combines the files in both versions, and also combines the history of the two branches.  Running git log in the merged version will show the history of both branches.  The reason why it is represented in the diagram as a single node with the two branch tips as the parent nodes is because each of these branches contributed to the merged version.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-test
+Some of the pros to Gits automatic merge is that it speeds up the process of the merge.  The con to this is that it could introduce extra clutter into
+the program, or even introduce a bug.  However, it does allow the user to focus more attention on conflicts.  Manual merging everying has a pro, it gives
+the user complete control.  The downside to this is that it takes more time, it would be diserable to automate the more trivial changes
